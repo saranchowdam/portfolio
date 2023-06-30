@@ -23,17 +23,74 @@ h1{
     text-decoration:none;
     color:white;
     
-}
-.elem a:hover{
+} 
+ .elem a:hover{
     background-color:#3E065F;
 }
-/*this is about section*/
 #about{
-    clear:both;
-    background-image:url("images/img.jpg");
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position:relative;
+}
+img{
+    width:100%;
+}
+#matter{
+    position:absolute;
+    color:white;
+    top:300px;
+    text-align:center;
+    width:50%;
+    line-height:1.5em;
+    word-spacing:2px;
+    font-size:1.3em;
+}
 
+/*project folder
+we are using cards to promote the project
+*/
+#cards{
+    background-color:#E5B8F4;
+}
+.card{
+    padding:10px;
+    width:27%;
+    border:5px solid black;
+    float:left;
+    margin:20px;
+    border-radius:10px;
+    box-shadow:10px 10px 10px 2px #E5B8F4;
+}
+.card:hover{
+    box-shadow:10px 10px 10px 2px #C147E9 ;
+}
+footer{
+    clear:both;
+    text-align:center;
+    background-color:rgba(0, 0, 0,1);
+    color:white;
+}
+input[type=text],input[type=email]{
+    width:50%;
+    padding:10px 10px;
+    margin:10px 0;
+    box-sizing:border-box;
+    border-radius:5px;
+    box-shadow:5px 5px 5px #C147E9;
+
+}
+textarea{
+    width:50%;
+    height:200px;
+    border-radius:5px;
+    margin:20px;
+    resize:none;
+    box-shadow:5px 5px 5px #C147E9;
+    
+}
+input[type=submit]{
+    padding:10px 30px;
+    margin-bottom:50px;
+    background-color:white;
+    border:none;
+    border-radius:5px;
+    box-shadow:5px 5px 5px #C147E9;
 }
